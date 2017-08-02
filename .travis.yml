@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: zdKJ/g26mFkzXkdJVW4sw7Y9j18jUU0dLAykJnOcPXcinUWBOdBHj8+knFzThPS1k8iqvKYtk4abG1AjLB5t0TV7XeKrM/XVQ2/dXsx2QDuk1NSOx/dvWI7urX5vzioh0StsZt5obfpAsfbZ/9Km7MQmA+d5TW5W8ZXpbtzjriXcONDjzuKfP6+7xz0/7tJ4f/KME3r3zA6hsowgjw6vmH+04ofiTM4SSHlSrWt/KXKSI7l0T1VtUd9qHIGVArEuwBET9bM8Sc4yC3oMeWA1Jgz4B0yqrJyG5SNme4qyl9mxpPkGc1hEimF0Rqp1cvZ4K/E5E4CEtIujEdTUEI8kXu5ArG11/N2M1+7FeM8vPa/4aiSj3Ro6o756WS3I7kE+vL1OBuDd/9O9QUWHRBWqFJYk+mQpk1e0woPtHvmljIGbC6zhX30H6R6C/2WD+CoMBSEe0f08jJ7GvNfBbOFP10twxhOeNW1XZsoUiznP8z3Igxn75OEPGqS1URU/llYXGwluq6fs1NFbFAW4dAcvyasY4pLRgcSiKfVMeItnIcHKcAlKqJ/uSB0h/M4msBAxscQ7FUoVzVVdnzqfwzT5YamArMinRctH1fnBoMh/gJ0D7ZXHpTIXgfz17Hpl0IxByVkiI+3pMufDvHR72+XDFeN4+T0lHASzUIkNv1KJa7s=
+  app: https://immense-escarpment-75565.herokuapp.com/
+  on:
+    repo: imagineLife/node-shopping-list-integration-tests
